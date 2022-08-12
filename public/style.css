@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#top,
+#bottom {
+    width: 100vw;
+    height: 50vh;
+}
+
+#top {
+    background-color: #FF0000;
+}
+
+#bottom {
+
+    background-color: #fff;
+}
+
+#content {
+    width: 60%;
+    left: 20%;
+    position: absolute;
+    top: 27%;
+    color: #fff;
+}
+
+#title {
+    text-align: center;
+    font-size: 68px;
+    margin-bottom: 32px;
+}
+
+#desc {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+#url-input {
+    width: 85%;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-indent: 8px;
+    outline: none;
+    cursor: text !important;
+}
+
+#convert-btn {
+    margin-left: -4px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 15%;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #FF0000;
+    color: #fff;
+}
+
+#convert-btn,
+#url-input {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#song-title,
+#message {
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#success,
+#errors {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#download-btn {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #FF0000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width:1400px) {
+    #bottom {
+        background-color: #FF0000;
+    }
+
+    #content {
+        width: 80%;
+        left: 10%;
+        top: 24%;
+        margin: auto;
+    }
+
+    #title {
+        font-size: 56px;
+        margin-bottom: 40px;
+    }
+
+    #desc {
+        font-size: 36px;
+        margin-bottom: 22px;
+    }
+
+    #url-input {
+        width: 85%;
+        font-size: 30px;
+    }
+
+    #convert-btn {
+        padding: 10px;
+        font-size: 30px;
+        width: 15%;
+    }
+
+    #song-title,
+    #message {
+        font-size: 26px;
+        color: #fff;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    #content {
+        width: 98%;
+        max-width: none;
+        left: 2%;
+        top: 28%;
+        margin: auto;
+    }
+
+    #title {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    #desc {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+
+    #url-input {
+        width: 75%;
+        font-size: 24px;
+    }
+
+    #convert-btn {
+        padding: 10px;
+        font-size: 24px;
+        width: 23%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #content {
+        width: 98%;
+        max-width: none;
+        left: 2%;
+        top: 32%;
+        margin: auto;
+    }
+
+    #title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    #desc {
+        font-size: 20px;
+        margin-bottom: 22px;
+    }
+
+    #url-input {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    #convert-btn {
+        padding: 10px;
+        font-size: 16px;
+        width: 23%;
+    }
+}
