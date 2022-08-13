@@ -176,14 +176,6 @@
 }
 
 @media only screen and (max-width:600px) {
-    #content {
-        width: 98%;
-        max-width: none;
-        left: 2%;
-        top: 32%;
-        margin: auto;
-    }
-
     #title {
         font-size: 30px;
         margin-bottom: 40px;
