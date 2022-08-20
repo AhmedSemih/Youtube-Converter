@@ -10,10 +10,11 @@
   },
   "name": "youtube-converter",
   "version": "1.0.0",
-  "description": "youtube video converter to mp3 or mp4",
+  "description": "youtube mp3 converter",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
